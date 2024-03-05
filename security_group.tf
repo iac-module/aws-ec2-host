@@ -1,5 +1,5 @@
 module "sg" {
-  source = "git::https://github.com/cloudposse/terraform-aws-security-group.git?ref=2.2.0"
+  source = "git::https://github.com/cloudposse/terraform-aws-security-group.git?ref=679216f1bc0b1c39a9bea03456e3eae8261f8dbb" #2.2.0
   count  = var.security_group_create && var.create ? 1 : 0
 
   security_group_name           = var.security_group_name

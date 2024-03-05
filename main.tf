@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-ec2-instance.git?ref=v5.6.0"
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-ec2-instance.git?ref=f3c6436589eba5c0bcac1cf1a81403ed4f3fcaf8" #v5.6.0
 
   create                               = var.create
   name                                 = var.name
